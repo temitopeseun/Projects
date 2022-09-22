@@ -12,3 +12,5 @@ Compilation of "Data Science Projects in the last months"
 
 .Project #5 :  This project is about "[Twitter Sentiment Analysis](https://github.com/temitopeseun/Projects/tree/main/Project_05)"
 
+.Project #6 :This project is about ["Time series Analysis"](https://github.com/temitopeseun/Projects/tree/main/Project_06) of temperature data as a function of Trend, Seasonality, and Remainder was plotted. Short-term weather prediction using Autoregressive (AR) model and Autoregressive-Integrated-Moving-Average (ARIMA) model , as well as python libraries such as statsmodels among others were deployed.
+
