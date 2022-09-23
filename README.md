@@ -18,6 +18,6 @@ Compilation of "Data Science Projects in the last months"
 
 .Project #8 :  This project was about using a "[Deep Learning (DL) approach; a Convolutional Neural Network (CNN)](https://github.com/temitopeseun/Projects/tree/main/Project_08)" for object/image recognition and classification. Keras Applications from deep learning models, as well as python library/enviroment such as tensorflow were useful for the project.
 
-.Project #9 :  This project was about still using a "[Deep Learning (DL) approach; “Transfer learning (TL)” for object/image recognition, classification and prediction](https://github.com/temitopeseun/Projects/tree/main/Project_09)". Image data were trained, model was developed, and image prediction was made. Keras Applications from deep learning models (MobileNetV2) , as well as python library/enviroment such as tensorflow were useful for the project.
+.Project #9 :  This project was about still using a "[Deep Learning (DL) approach; “Transfer learning (TL)-MobileNetV2”](https://github.com/temitopeseun/Projects/tree/main/Project_09)". Image data were trained, model was developed, for object/image recognition, classification and prediction. Keras Applications from deep learning models (MobileNetV2) , as well as python library/enviroment such as tensorflow were useful for the project.
 
 
