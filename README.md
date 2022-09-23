@@ -12,6 +12,12 @@ Compilation of "Data Science Projects in the last months"
 
 .Project #5 :  This project is about "[Twitter Sentiment Analysis](https://github.com/temitopeseun/Projects/tree/main/Project_05)"
 
-.Project #6 :This project is about ["Time series Analysis"](https://github.com/temitopeseun/Projects/tree/main/Project_06) of temperature data as a function of Trend, Seasonality, and Remainder was plotted. Short-term weather prediction using Autoregressive (AR) model and Autoregressive-Integrated-Moving-Average (ARIMA) model , as well as python libraries such as statsmodels among others were deployed.
+.Project #6 :  This project is about ["Time series Analysis"](https://github.com/temitopeseun/Projects/tree/main/Project_06) of temperature data as a function of Trend, Seasonality, and Remainder was plotted. Short-term weather prediction using Autoregressive (AR) model and Autoregressive-Integrated-Moving-Average (ARIMA) model , as well as python libraries such as statsmodels among others were deployed.
 
-.Project #7 :This project is about ["Markov Simulation of customer's movement"](https://github.com/temitopeseun/Projects/tree/main/Project_07). Some EDAs were performed for better analysis. 
+.Project #7 :  This project is about ["Markov Simulation of customer's movement"](https://github.com/temitopeseun/Projects/tree/main/Project_07). Some EDAs were performed for better analysis. 
+
+.Project #8 :  This project was about using a "[Deep Learning (DL) approach; a Convolutional Neural Network (CNN)](https://github.com/temitopeseun/Projects/tree/main/Project_08)" for object/image recognition and classification. Keras Applications from deep learning models, as well as python library/enviroment such as tensorflow were useful for the project.
+
+.Project #9 :  This project was about still using a "[Deep Learning (DL) approach; “Transfer learning (TL)-MobileNetV2”](https://github.com/temitopeseun/Projects/tree/main/Project_09)". Image data were trained, model was developed, for object/image recognition, classification and prediction. Keras Applications from deep learning models (MobileNetV2) , as well as python library/enviroment such as tensorflow were useful for the project.
+
+
