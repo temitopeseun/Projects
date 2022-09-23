@@ -20,4 +20,4 @@ Compilation of "Data Science Projects in the last months"
 
 .Project #9 :  This project was about still using a "[Deep Learning (DL) approach; “Transfer learning (TL)-MobileNetV2”](https://github.com/temitopeseun/Projects/tree/main/Project_09)". Image data were trained, model was developed, for object/image recognition, classification and prediction. Keras Applications from deep learning models (MobileNetV2) , as well as python library/enviroment such as tensorflow were useful for the project.
 
-
+.Project #10 :  This project was about development of "[Recommender Systems | Non Negative Matrix Factorization (NMF) Model](https://github.com/temitopeseun/Projects/tree/main/Project_10)".
