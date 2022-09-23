@@ -16,8 +16,12 @@ Compilation of "Data Science Projects in the last months"
 
 .Project #7 :  This project is about ["Markov Simulation of customer's movement"](https://github.com/temitopeseun/Projects/tree/main/Project_07). Some EDAs were performed for better analysis. 
 
-.Project #8 :  This project was about using a "[Deep Learning (DL) approach; a Convolutional Neural Network (CNN)](https://github.com/temitopeseun/Projects/tree/main/Project_08)" for object/image recognition and classification. Keras Applications from deep learning models, as well as python library/enviroment such as tensorflow were useful for the project.
+.Project #8 :  This project was about using a "[Deep Learning (DL) approach; a Convolutional Neural Network (CNN)](https://github.com/temitopeseun/Projects/tree/main/Project_08)" for object/image recognition and classification. Keras applications from deep learning models, as well as python library/enviroment such as tensorflow were useful for the project.
 
-.Project #9 :  This project was about still using a "[Deep Learning (DL) approach; “Transfer learning (TL)-MobileNetV2”](https://github.com/temitopeseun/Projects/tree/main/Project_09)". Image data were trained, model was developed, for object/image recognition, classification and prediction. Keras Applications from deep learning models (MobileNetV2) , as well as python library/enviroment such as tensorflow were useful for the project.
+.Project #9 :  This project was about still using a "[Deep Learning (DL) approach; “Transfer learning (TL)-MobileNetV2”](https://github.com/temitopeseun/Projects/tree/main/Project_09)". Image data were trained, model was developed, for object/image recognition, classification and prediction. Keras applications from deep learning models (MobileNetV2) , as well as python library/enviroment such as tensorflow were useful for the project.
 
 .Project #10 :  This project was about development of "[Recommender Systems | Non Negative Matrix Factorization (NMF) Model](https://github.com/temitopeseun/Projects/tree/main/Project_10)".
+
+.Project #11 : In this project, I used a [DL approach; a “Transfer learning (TL)-MobileNetV2”](https://github.com/temitopeseun/Projects/tree/main/Project_11) for solar image recognition after training, an then classification was done and prediction was made. The model was able to classify solar image associated to a specific solar storm class, and then forcast storm based on classification. TL such as MobileNetV2 obtained from Keras applications, as well as python library/enviroment such as tensorflow were useful for the project.
+
+
