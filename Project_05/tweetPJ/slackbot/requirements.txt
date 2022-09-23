@@ -1,6 +1,0 @@
-requests
-sqlalchemy
-pymongo
-psycopg2
-
-
