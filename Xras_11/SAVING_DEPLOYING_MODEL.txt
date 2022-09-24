@@ -1,0 +1,91 @@
+
+
+###################### SAVING MODEL ################################
+## Saving Models, either by .h5 or .pkl
+
+##  trained_model = h_model; name to save/call trained_model = my_model1
+
+##1.
+#from keras.models import load_model
+
+#h_model.save('my_model1.h5')
+
+##calling to use model:
+
+#model = load_model("my_model1.h5")
+
+
+
+##2.
+#import joblib
+
+#joblib.dump(h_model, 'my_model1.pkl')
+
+##calling to use model:
+
+#model = joblib.load('my_model1.pkl')
+
+
+############################ DEPLOYING MODEL ################################
+
+import plotly.figure_factory as ff
+import numpy as np
+import tensorflow as tf
+import pandas as pd
+from PIL import Image
+
+# liberaries for tensorflow and for calling models
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.preprocessing import image
+from keras.models import load_model
+
+import warnings
+warnings.filterwarnings("ignore")
+
+
+#######################################################################
+# Getting all function for image resisizing
+def image_resizing(image_path):
+    """
+    This function resizes an input image to 224 X 224
+    """
+    img = image.load_img(image_path, target_size=(224,224))
+    return img
+
+ 
+def image_preprocessing(resized_image):
+    """
+    This function preprocesses the input image for MobileNetV2
+    """
+    pic_array = image.img_to_array(resized_image)
+    image_batch = np.expand_dims(pic_array, axis=0)
+    processed_image = preprocess_input(image_batch)
+    return processed_image
+
+def image_classification(preprocessed_image, model):
+    probs = model.predict(preprocessed_image)[0].tolist()
+    zipped = sorted(list(zip(classes, probs)), key=lambda x: x[1], reverse=True)
+    image_class = [zipped[i][0] for i in range(len(zipped))]
+    probability  = [zipped[i][1]*100 for i in range(len(zipped))]
+    df = pd.DataFrame(data={'image_class':image_class, 'probability(%)': probability})
+    return df
+
+######################################################
+
+
+# preprocess an image
+
+resized_image = image_resizing('./test/nov192013.jpg')
+preprocessed_img = image_preprocessing(resized_image)
+
+
+# these are the flare classes 
+classes=['B_class', 'C_class']
+
+
+model_name = load_model("my_model2.h5")
+tf.autograph.experimental.do_not_convert
+df=image_classification(preprocessed_img, model_name)
+df=df.sort_values(by= "image_class").reset_index(drop=True)
+df
+
